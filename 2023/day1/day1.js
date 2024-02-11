@@ -77,8 +77,10 @@ const partTwo = (input) => {
   F;
 };
 
+
+/* ================ INPUT ================================================================== */
 const fs = require("node:fs");
-const filePath = "D:/advent-of-code/2023/day1/input_day1.txt";
+const filePath = "D:/advent-of-code/2023/day1/input.txt";
 
 fs.readFile(filePath, "utf8", (err, input) => {
   if (err) {
